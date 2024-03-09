@@ -9,6 +9,9 @@ route.get('/todos', getAllTodos);
 route.get('/todos/:id', toggleTodoDone);
 route.put('/todos/:id', updateTodo);
 route.delete('/todos/:id', deleteTodo);
+route.get('/', async (req, res) => {
+    res.send("Database is up! Happy coding.")
+})
 
 
 export default route;
