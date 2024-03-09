@@ -13,6 +13,9 @@ Todofy is a MERN-based application that is used to manage the To-Do Lists. It wa
 - Node.js
 - MongoDB
 
+### Deployed Link
+https://todofy-xlln.onrender.com/
+
 ### Guide to start the application
 
 NOTE - Make sure you have `Node.js` installed on your machine. 
